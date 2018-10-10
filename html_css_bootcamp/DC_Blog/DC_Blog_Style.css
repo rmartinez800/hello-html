@@ -1,25 +1,33 @@
 header {
     padding: 20px 100px;
 }
+header {
+    font-family: Arial, Helvetica, sans-serif
+} 
 header > * {  
   display: inline-block; 
-  font-family: Arial, Helvetica, sans-serif
+  
 }
 div.logo {
     font-size: 35px
 }
 
-ul.menu {
-    list-style: none;
+.menu {
     padding: 0;
     float: right;
 }
-ul.menu li {
+.menu li {
     display: inline;
+}
+.menu li a{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
 }
 .title {
     padding: 40px;
     font-size: 35px;
+    margin-left: 40px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
 }
@@ -28,4 +36,23 @@ ul.menu li {
     color: lightgrey;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif
+}
+.twitter_button{ 
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+   color: grey; 
+   margin-left:590px;
+   width: 40%;
+   height: 40%;
+}
+hr {
+    margin-left: 590px;
+    width: 40%;
+    height: 40%;  
+}
+.navi li {
+    display: inline;
 }
