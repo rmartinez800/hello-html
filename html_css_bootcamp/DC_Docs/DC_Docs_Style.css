@@ -17,6 +17,39 @@
 div.search{
     font-family: Arial, Helvetica, sans-serif
 }
+.box2{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.box2 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    float: right;
+}
+.box2 li{
+    margin: 10px 0;
+    font-size:15px;
+}
+.intros{
+    padding-top:40px;
+    padding-bottom:20px;
+    font-size: 10px;
+}
+.quote{
+    margin-top: 50px;
+    height: 100px;
+    background-color: lightgrey;
+}
+.moti {
+    padding-top:40px;
+    padding-bottom:20px;
+    font-size: 10px;
+}
+.camp {
+    padding-top:40px;
+    padding-bottom:10px;
+    font-size: 10px;
+}
 footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
