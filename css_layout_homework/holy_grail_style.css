@@ -1,5 +1,4 @@
 .hBox {
-    width: 100%;
     border: 8px solid black;
     background-color: lightblue;
     text-align: center;
@@ -14,8 +13,8 @@
     display: flex;
   }
   .mBox {
+    flex: 25;
     background-color: purple;
-    width: 20%;
     height: 100%;
     border: 8px solid black;
     font-size: 40px;
@@ -29,7 +28,6 @@
     text-align: left;
   }
   footer {
-    width: 100%;
     border: 8px solid black;
     background-color: lightblue;
     text-align: center;
@@ -37,7 +35,7 @@
     font-family: sans-seriff
   }
   .content {
-    width: 60%;
+    flex: 50;
     border: 8px solid black;
     background-color: tan;
   }
@@ -50,8 +48,8 @@
     text-align: left;
   }
   .AD{
+    flex: 25;
     background-color: purple;
-    width: 20%;
     border: 8px solid black;
     font-size: 80px;
     font-family: Arial;
@@ -60,4 +58,27 @@
     list-style-type: none;
     text-align: center;
   }
-  
+  @media only screen and (max-width: 800px) and (min-width: 600px) {
+    .AD {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .flexContainer {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .AD {
+      font-size: 10px;
+    }
+    .content header{
+      font-size: 10px;
+    }
+    .content p{
+      font-size: 10px;
+    }
+    .mBox {
+      font-size: 10px;
+    }
+  } 
