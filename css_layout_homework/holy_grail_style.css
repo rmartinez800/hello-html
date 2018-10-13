@@ -1,0 +1,63 @@
+.hBox {
+    width: 100%;
+    border: 8px solid black;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-seriff
+  }
+  .hBox h1{
+    font-size: 50px;
+    font-family: sans-seriff
+  }
+  .flexContainer {
+    display: flex;
+  }
+  .mBox {
+    background-color: purple;
+    width: 20%;
+    height: 100%;
+    border: 8px solid black;
+    font-size: 40px;
+    font-family: Arial;
+  }
+  .mbox li{
+    text-align: center;
+  }
+  .mBox ul{
+    list-style-type: none;
+    text-align: left;
+  }
+  footer {
+    width: 100%;
+    border: 8px solid black;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-seriff
+  }
+  .content {
+    width: 60%;
+    border: 8px solid black;
+    background-color: tan;
+  }
+  .content header{
+    text-align: center;
+    font-size: 40px;
+  }
+  .content p {
+    font-size: 20px;
+    text-align: left;
+  }
+  .AD{
+    background-color: purple;
+    width: 20%;
+    border: 8px solid black;
+    font-size: 80px;
+    font-family: Arial;
+  }
+  .AD li{
+    list-style-type: none;
+    text-align: center;
+  }
+  
